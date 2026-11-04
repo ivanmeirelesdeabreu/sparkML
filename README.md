@@ -100,7 +100,7 @@ O Pipeline completo (`VectorAssembler`, `StandardScaler`, `KMeans`) foi salvo co
 
 Melhorias possíveis incluem testar a estabilidade temporal dos grupos, outros algoritmos e novos atributos de comportamento.
 
-## R
+##  Referências
 
 - [UCI — Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
 - [Apache Spark — MLlib Clustering](https://spark.apache.org/docs/latest/ml-clustering.html)
