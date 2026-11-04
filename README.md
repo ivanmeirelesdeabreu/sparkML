@@ -22,7 +22,7 @@ Identificar perfis de clientes de um comércio eletrônico a partir dos indicado
 
 A base possui mais de um milhão de linhas de itens de transações. O Spark foi empregado na leitura, exploração, limpeza e agregação dos registros. Após a agregação por cliente, o treinamento do K-Means utiliza 5.878 observações; essa etapa isoladamente não requer processamento distribuído, mas o fluxo é implementado com Spark ML e pode ser adaptado a bases maiores.
 
-## Preparação e limpeza
+## Preparação
 
 Os dados Excel foram convertidos em CSV para ingestão com PySpark, usando `inferSchema=True` e verificando os tipos identificados. As exclusões foram apuradas **sequencialmente**, evitando dupla contagem de registros com mais de um problema.
 
